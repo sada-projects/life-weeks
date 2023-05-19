@@ -1,3 +1,3 @@
 # Life Weeks
 
-![image](https://github.com/sada-projects/life-weeks/assets/55833403/343758b3-e1d1-4c62-bff5-7e3fddd5dbf5)
+![image](https://github.com/sada-projects/life-weeks/assets/55833403/806ee074-98b0-474c-a6ad-c996364e83b4)
