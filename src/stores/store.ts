@@ -5,7 +5,7 @@ interface IName {
   setName: (name: string) => void;
 }
 
-const useName = create<IName>((set) => ({
+const useName = create<IName>()((set) => ({
   name: "ahmad",
   setName: (name) => set(() => ({ name: name })),
 }));
