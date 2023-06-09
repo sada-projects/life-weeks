@@ -1,0 +1,26 @@
+.date {
+  display: flex;
+  gap: 5px;
+}
+.date__slash {
+  margin: auto 0;
+}
+
+.date__input {
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  width: 4rem;
+  font-size: x-large;
+  text-align: center;
+}
+.date__input::-webkit-outer-spin-button,
+.date__input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.date__input--year {
+  width: 100px;
+}
