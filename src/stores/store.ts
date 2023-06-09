@@ -1,13 +1,13 @@
 import { create } from "zustand";
 
-interface IName {
-  name: string;
-  setName: (name: string) => void;
+interface IDate {
+  date: Date;
+  setDate: (name: Date) => void;
 }
 
-const useName = create<IName>()((set) => ({
-  name: "ahmad",
-  setName: (name) => set(() => ({ name: name })),
+const useDate = create<IDate>()((set) => ({
+  date: new Date(),
+  setDate: (newDate) => set(() => ({ date: newDate })),
 }));
 
-export default useName;
+export default useDate;

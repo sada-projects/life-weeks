@@ -1,0 +1,41 @@
+.start__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.start__header {
+  text-align: left;
+}
+
+.start__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.start__button {
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 10px;
+  background-color: var(--contrast-color);
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: color 200ms;
+}
+
+.start__button:hover {
+  color: var(--secondary-color);
+}
+
+.start__p {
+  margin: 0 auto;
+}
